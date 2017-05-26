@@ -75,10 +75,3 @@ foreach($f => $c as $fruits)
   print("$f, $c")
 }
 ```
-
-配列にキーが存在するかどうかは ```isset()``` 関数でチェックできる。キーの削除は ```unset()``` で行う。
-
-```
-print( isset($fruits['apple']));
-print( isset($fruits['pineapple']));
-```

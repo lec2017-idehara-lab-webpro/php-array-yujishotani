@@ -29,6 +29,7 @@ foreach($fruits as $f => $c)
 {
   print("$f, $c");
 }
+
  ?>
 
   </body>
