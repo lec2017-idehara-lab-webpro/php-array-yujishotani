@@ -25,11 +25,13 @@ print( $name[1] ); // MIKE
 
 print('<hr \>');
 
+print("<table border>");
+
 foreach($fruits as $f => $c)
 {
-  print("$f, $c");
+  print("<tr><td>$f<td>$c");
 }
-
+print("</table>")
  ?>
 
   </body>
